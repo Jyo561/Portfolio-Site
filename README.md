@@ -66,7 +66,7 @@ Open your browser at http://localhost:8080
 
 
 ## 🙌 Credits
- - Inspired by retro newspapers,and UI Design implemented by @rinkitadhana.
+ - Inspired by retro newspapers,and UI Design implemented by [@rinkitadhana](https://github.com/rinkitadhana/The-Daily-Crimes).
 
  - Built with ❤️ and 🦀 in Rust.
 
