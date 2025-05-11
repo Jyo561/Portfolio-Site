@@ -1,0 +1,12 @@
+[package]
+name = "newspaper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+chrono = "0.4.41"
+gloo = "0.11.0"
+stylist = "0.13.0"
+web-sys = "0.3.77"
+wasm-bindgen = "0.2.100"

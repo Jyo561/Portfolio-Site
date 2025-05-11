@@ -1,0 +1,9 @@
+pub mod head;
+pub mod middle_head;
+pub mod top;
+pub mod news_items;
+pub mod news;
+pub mod the_end;
+pub mod slider;
+pub mod warning;
+pub mod footer;
