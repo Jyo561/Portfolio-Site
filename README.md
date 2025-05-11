@@ -62,7 +62,7 @@ Open your browser at http://localhost:8080
 
 
 ## 🔗 Live & Source
- - 🌐 Live: https://portfolio-site-bxf.pages.dev/
+ - 🌐 Live: https://jyo561.pages.dev/
 
 
 ## 🙌 Credits
