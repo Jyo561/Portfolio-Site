@@ -27,7 +27,7 @@ pub fn news5() -> Html {
             <div class={container.clone()}>
             <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div>
-                    <h1 class={classes!("text-4xl")}>
+                    <h1 class={classes!("text-4xl","mb-1")}>
                         {"IS MACHINE VISION READY FOR EQUATIONS?"}
                     </h1>
                     <p>{"Inside the Experimental MathOCR Engine"}</p>
@@ -45,10 +45,10 @@ pub fn news5() -> Html {
             </div>
 
             // Section 2
-            <div class="flex-1 flex flex-col gap-2">
-                <div><h1 class="text-3xl">{"WILL RUST TAKE OVER CHAT AUTOMATION?"}</h1><p>{"Behind the Scenes of a Discord Expense Bot"}</p></div>
-                <div class="flex gap-3 text-sm">
-                    <div class="flex-1 flex flex-col gap-1">
+            <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
+                <div><h1 class={classes!("text-3xl","mb-1")}>{"WILL RUST TAKE OVER CHAT AUTOMATION?"}</h1><p>{"Behind the Scenes of a Discord Expense Bot"}</p></div>
+                <div class={classes!("flex", "gap-3", "text-sm")}>
+                    <div class={classes!("flex-1", "flex", "flex-col", "gap-1")}>
                         <p class={classes!("mt-1","mb-1")}><span class="high">{"R"}</span>{"ust meets personal finance in this fast, safe automation tool."}</p>
                         <p class={classes!("mt-1","mb-1")}><strong>{"🛠️ Tech Stack: Rust, Google Sheets API"}</strong></p>
                         <p class={classes!("mt-1","mb-1")}>{"Engineered a Discord bot that logs expenses via DMs and syncs with Google Sheets. Emphasis on low-latency NLP processing and memory-safe code execution."}</p>

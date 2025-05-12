@@ -27,7 +27,7 @@ pub fn news3() -> Html {
             <div class={container.clone()}>
             <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div>
-                    <h1 class={classes!("text-4xl")}>
+                    <h1 class={classes!("text-4xl","mb-1")}>
                         {"IS STUDENT SOFTWARE THE NEXT FRONTIER?"}
                     </h1>
                     <p>{"Inside the Making of a Job Portal for Campuses"}</p>
@@ -48,11 +48,11 @@ pub fn news3() -> Html {
             </div>
 
             // Section 2
-            <div class="flex-1 flex flex-col gap-2">
+            <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div><img src="/public/IMG/scholarship.png" alt="news_img" class={imgtype.clone()} /></div>
-                <div><h1 class="text-4xl">{"WHO DESERVES A CHANCE?"}</h1><p>{"Building a Smarter Scholarship Finder for the Overlooked"}</p></div>
-                <div class="flex gap-3 text-sm">
-                    <div class="flex-1 flex flex-col gap-1">
+                <div><h1 class={classes!("text-4xl", "mt-1", "mb-1")}>{"WHO DESERVES A CHANCE?"}</h1><p>{"Building a Smarter Scholarship Finder for the Overlooked"}</p></div>
+                <div class={classes!("flex","gap-3","text-sm")}>
+                    <div class={classes!("flex-1", "flex", "flex-col", "gap-1")}>
                         <p class={classes!("mt-1","mb-1")}><span class="high">{"E"}</span>{"mpowering students with contextual, inclusive AI-driven search."}</p>
                         <p class={classes!("mt-1","mb-1")}><strong>{"🛠️ Tech Stack: Brython, FastAPI, Gemini AI"}</strong></p>
                         <p class={classes!("mt-1","mb-1")}>{"Developed a web application that helps students discover scholarships tailored to their caste, religion, and region using AI-powered semantic search. Leveraged Gemini AI to interpret user queries beyond keyword matching—making discovery more accessible for underserved groups. Combined client-side Python (Brython) with a FastAPI backend for lightweight deployment and responsiveness."}</p>
@@ -69,7 +69,7 @@ pub fn news3() -> Html {
             // Section 3
             <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div>
-                    <h1 class={classes!("text-3xl")}>
+                    <h1 class={classes!("text-3xl","mb-1")}>
                         {"CAN PYTHON RUN IN THE BROWSER? ONE LIBRARY SAYS YES"}
                     </h1>
                     <p>{"An Open-Source Initiative to Redefine UI Components"}</p>
