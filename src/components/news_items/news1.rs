@@ -52,8 +52,8 @@ pub fn news1() -> Html {
             // Left Column
             <div class={classes!("basis-1/2")}>
                 <div class={title.clone()}>
-                    {"Who is Jyotiraditya?"} 
-                    <span class={classes!("not-italic", "font-bold")}>{" A Closer Look"}</span>
+                    {"WHO IS JYOTIRADITYA?"} 
+                    <span class={classes!("not-italic", "font-bold")}>{" A CLOSER LOOK"}</span>
                 </div>
                 <div class={classes!("flex", "flex-row", "gap-3", "text-sm", "text-justify")}>
                     // First Text Block
