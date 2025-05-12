@@ -103,7 +103,7 @@ pub fn news2() -> Html {
     html! {
         <div>
             <div>
-                <h1 style="font-size: 2rem;">{"INSIDE THE DEVELOPER'S TOOLBOX : A Glimpse at the Arsenal Behind Every Line of Code"}</h1>
+                <h1 style="font-size: 3rem;">{"INSIDE THE DEVELOPER'S TOOLBOX : A Glimpse at the Arsenal Behind Every Line of Code"}</h1>
             </div>
             <p class={classes!("")} style="font-size: 1.5rem;"> {"Jyotiraditya, a quiet force in the coding world, prefers craftsmanship over chaos. His toolbox is well-worn, battle-tested, and perfectly organized."} </p>
             <div class={container.clone()}>
