@@ -23,11 +23,11 @@ pub fn news3() -> Html {
     html! {
         <div >
             // Section 1
-            <h1 style="font-size: 3rem;text-align: center;">{"FROM CONCEPT TO CODE: A Chronicle of Creations"}</h1>
+            <h1 style="font-size: 2rem;text-align: center;">{"FROM CONCEPT TO CODE: A Chronicle of Creations"}</h1>
             <div class={container.clone()}>
             <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div>
-                    <h1 class={classes!("text-4xl")}>
+                    <h1 class={classes!("text-3xl")}>
                         {"IS STUDENT SOFTWARE THE NEXT FRONTIER?"}
                     </h1>
                     <p>{"Inside the Making of a Job Portal for Campuses"}</p>
@@ -69,7 +69,7 @@ pub fn news3() -> Html {
             // Section 3
             <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div>
-                    <h1 class={classes!("text-4xl")}>
+                    <h1 class={classes!("text-3xl")}>
                         {"CAN PYTHON RUN IN THE BROWSER? ONE LIBRARY SAYS YES"}
                     </h1>
                     <p>{"An Open-Source Initiative to Redefine UI Components"}</p>
