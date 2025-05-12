@@ -23,7 +23,7 @@ pub fn news3() -> Html {
     html! {
         <div >
             // Section 1
-            <h1 style="font-size: 2rem;text-align: center;">{"FROM CONCEPT TO CODE: A Chronicle of Creations"}</h1>
+            <h1 style="font-size: 3rem;text-align: center;">{"FROM CONCEPT TO CODE: A Chronicle of Creations"}</h1>
             <div class={container.clone()}>
             <div class={classes!("flex-1", "flex", "flex-col", "gap-2")}>
                 <div>
