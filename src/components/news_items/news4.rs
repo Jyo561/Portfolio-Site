@@ -105,7 +105,7 @@ pub fn news4() -> Html {
             <div class={container.clone()}>
                 <div class={column_left.clone()}>
                     <div>
-                        <h1 style="font-size: 2rem;">{"EYEWITNESS ACCOUNT: Code, Commit, Conquer"}</h1>
+                        <h1 style="font-size: 2rem;">{"EYEWITNESS ACCOUNT: CODE, COMMIT, CONQUER"}</h1>
                     </div>
 
                     <div class={classes!("flex", "flex-col", "gap-0.5")}>
