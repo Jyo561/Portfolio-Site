@@ -11,7 +11,7 @@ pub fn head() -> Html {
                     <hr class={classes!("border-t-[2px]", "border-black/90")} />
                 </div>
                 <span class={classes!("mx-2", "text-5xl", "font-OldLondon", "text-themeOrange")}>
-                    { "Software Developer" }
+                    { "Researcher X Developer" }
                 </span>
                 <div class={classes!("flex-grow", "space-y-0.5")}>
                     <hr class={classes!("border-t-[5px]", "border-black/85")} />
