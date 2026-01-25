@@ -34,7 +34,7 @@ pub fn top() -> Html {
             </div>
             <div class={classes!("flex", "flex-col", "items-end")}>
                 <span class={classes!("text-black/75", "font-semibold", "text-sm")}>
-                    { "Chennai, TamilNadu, India" }
+                    { "Chennai, Tamil Nadu, India" }
                 </span>
                 <span class={classes!("text-black/80", "font-semibold", "text-base")}>
                     { format!("{}, {} {}, {}", day_arr[day], month_arr[month], date, year) }
