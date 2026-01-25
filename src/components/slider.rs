@@ -6,7 +6,7 @@ pub fn slider() -> Html {
         <div class={classes!("marquee-container", "select-none")}>
             <div class={classes!("marquee")}>
                 {"Interesting Isn't It? "}
-                <a href="https://www.linkedin.com/in/jyotiraditya-kuanar-8b39b7207/" target="_blank">
+                <a href="https://linktr.ee/jyotiradityakuanar34" target="_blank">
                     {"Follow Him"}
                 </a>
                 {"."}
