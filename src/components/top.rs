@@ -29,7 +29,7 @@ pub fn top() -> Html {
                 
                 <span class={classes!("text-black/75", "text-base", "font-semibold", "cursor-pointer")}>
 
-                    { "Find the resume at:- " }<a href="https://drive.google.com/file/d/1vEk5QPl4zTyPQ8G67X_a6LBV31TiviNq/view?usp=sharing" class={classes!("hover:text-themeOrange","hover:underline")}>{"Resume"}</a>
+                    { "Find the resume at:- " }<a href="https://drive.google.com/file/d/1E8eQOfLLKpnntIZQzOmw0SDk4MqfHlQC/view?usp=sharing" class={classes!("hover:text-themeOrange","hover:underline")}>{"Resume"}</a>
                 </span>
             </div>
             <div class={classes!("flex", "flex-col", "items-end")}>
