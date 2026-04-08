@@ -132,6 +132,42 @@ pub fn news4() -> Html {
                     </div>
                 </div>
             </div>
+            <div class={container.clone()}>
+                <div class={column_left.clone()}>
+                    <div>
+                        <h1 style="font-size: 2rem;">{"EYEWITNESS ACCOUNT: SIGNAL, SYSTEMS, SCIENCE"}</h1>
+                    </div>
+
+                    <div class={classes!("flex", "flex-col", "gap-0.5")}>
+                            <p class="dropcap">
+                                <span class="first-letter">{"F"}</span>{"rom September 2025, Jyotiraditya entered the halls of"}<strong>{" Indira Gandhi Centre for Atomic Research "}</strong>{"not with spectacle — but with systems."}
+                            </p>
+                            <p>
+                                {"As a "}<strong>{"Junior Research Fellow"}</strong>{", his work sits at the intersection of computation and physical reality. Signals are not just numbers here; they are representations of electrochemical behavior, sensor drift, and system integrity. ‘The challenge wasn’t just processing data,’ he reflects. ‘It was understanding what the data meant under real-world constraints.’"}
+                            </p>
+                            <p>
+                                {"He designed pipelines that transform raw experimental inputs into structured, interpretable outputs — filtering noise, stabilizing signals, and enabling reliable downstream analysis. His approach blends algorithmic precision with engineering pragmatism, ensuring that models are not only accurate but deployable in long-running, safety-critical environments."}
+                            </p>
+                            <p>
+                                {"Working within tightly controlled research systems, he contributed to fault detection strategies and early-warning mechanisms, applying machine learning techniques where uncertainty is high and tolerance for error is low."}
+                            </p>
+                            <blockquote>
+                                {"‘Validation wasn’t optional. Every assumption had to be tested, every output defensible.’"}
+                            </blockquote>
+                            <p>
+                                {"Collaboration here was deliberate and methodical. Discussions revolved around reproducibility, robustness, and system longevity rather than speed alone. Jyotiraditya operated within these constraints, contributing to software systems that are built not just to run — but to endure."}
+                            </p>
+        <p>
+                                {"His work reflects a shift: from building applications for users, to engineering systems that interact with the physical world — quietly, continuously, and critically."}
+                            </p>
+                    </div>
+                </div>
+                <div class={column_main.clone()}>
+                    <div class={classes!("flex","justify-center","items-center","text-center","w-full")}>
+                        <div>{"TIMELINE"}<br />{"Sep 2025 - Present"}</div>
+                    </div>
+                </div>
+            </div>
         </div>
     }
 }
