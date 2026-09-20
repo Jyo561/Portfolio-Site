@@ -241,7 +241,7 @@ pub fn news2() -> Html {
                                 <span class={tech_text.clone()}>{"Manjaro"}</span> 
                             </p>
                             <p class={classes!("flex")}>
-                                <img src="https://github.com/endeavouros-team/endeavouros-theming/blob/master/endeavouros.svg" alt="Rust Logo" class={tech_img.clone()} />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/EndeavourOS_Logo.png" alt="Rust Logo" class={tech_img.clone()} />
                                 <span class={tech_text.clone()}>{"Endeavour"}</span> 
                             </p>
                             <p class={classes!("flex")}>
