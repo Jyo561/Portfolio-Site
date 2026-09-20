@@ -242,7 +242,7 @@ pub fn news2() -> Html {
                             </p>
                             <p class={classes!("flex")}>
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/EndeavourOS_Logo.png" alt="Rust Logo" class={tech_img.clone()} />
-                                <span class={tech_text.clone()}>{"Endeavour"}</span> 
+                                <span class={tech_text.clone()}>{"Endeavour OS"}</span> 
                             </p>
                             <p class={classes!("flex")}>
                                 <img src="https://avatars.githubusercontent.com/u/22484687?s=200&v=4" alt="Rust Logo" class={tech_img.clone()} />
